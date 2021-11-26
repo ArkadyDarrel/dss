@@ -25,7 +25,7 @@ interface VatLike {
     function file(bytes32, bytes32, uint) external;
 }
 
-interface PipLike {
+interface PipeLike {
     function peek() external returns (bytes32, bool);
 }
 
